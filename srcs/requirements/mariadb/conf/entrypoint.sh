@@ -1,7 +1,7 @@
 #!/bin/sh
 
-mkdir -p /home/acoezard/data/database
-mkdir -p /home/acoezard/data/www
+mkdir -p /home/kcatrix/data/database
+mkdir -p /home/kcatrix/data/www
 
 /usr/bin/mysql_install_db --user=root --basedir=/usr --datadir=/var/lib/mysql
 /usr/bin/mysqld --user=root --datadir=/var/lib/mysql & sleep 2

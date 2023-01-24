@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: acoezard <acoezard@student.42nice.fr>      +#+  +:+       +#+         #
+#    By: kcatrix <kcatrix@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/03/01 10:39:56 by acoezard          #+#    #+#              #
-#    Updated: 2022/04/08 21:23:47 by acoezard         ###   ########.fr        #
+#    Created: 2022/03/01 10:39:56 by kcatrix          #+#    #+#              #
+#    Updated: 2022/04/08 21:23:47 by kcatrix         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,8 +55,8 @@ status:
 	@docker compose ${FLAGS} ps
 
 clean:
-	@rm -rf /home/acoezard/data/www/* > /dev/null
-	@rm -rf /home/acoezard/data/database/* > /dev/null
+	@rm -rf /home/kcatrix/data/www/* > /dev/null
+	@rm -rf /home/kcatrix/data/database/* > /dev/null
 	@echo ${__BLUE}"info"${__WHITE}" - cleaned docker data"${__EOC}
 
 fclean: clean

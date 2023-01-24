@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Dockerfile                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: acoezard <acoezard@student.42nice.fr>      +#+  +:+       +#+         #
+#    By: kcatrix <kcatrix@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/04/06 16:47:18 by acoezard          #+#    #+#              #
-#    Updated: 2022/04/08 22:47:34 by acoezard         ###   ########.fr        #
+#    Created: 2022/04/06 16:47:18 by kcatrix          #+#    #+#              #
+#    Updated: 2022/04/08 22:47:34 by kcatrix         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Dockerfile                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: acoezard <acoezard@student.42.fr>          +#+  +:+       +#+         #
+#    By: kcatrix <kcatrix@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/04/06 11:57:53 by acoezard          #+#    #+#              #
-#    Updated: 2022/04/08 16:41:02 by acoezard         ###   ########.fr        #
+#    Created: 2022/04/06 11:57:53 by kcatrix          #+#    #+#              #
+#    Updated: 2022/04/08 16:41:02 by kcatrix         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ RUN		openssl req \
 		-sha256 \
 		-days 365 \
 		-nodes \
-		-subj "/C=FR/ST=PACA/L=Nice/O=42/OU=acoezard/CN=localhost" \
+		-subj "/C=FR/ST=PACA/L=Nice/O=42/OU=kcatrix/CN=localhost" \
 		-keyout /etc/nginx/ssl/inception.key \
 		-out /etc/nginx/ssl/inception.cert
 
