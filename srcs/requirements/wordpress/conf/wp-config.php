@@ -6,14 +6,14 @@
 	define("DB_CHARSET",			getenv("MARIADB_CHARSET"));
 	define("DB_COLLATE",			getenv("MARIADB_COLLATE"));
 
-	define('AUTH_KEY',				'2>#Zc9]> ChGj2`rJX++n{ /~Jc)ha^j1:EX(n_oj&.jMbSy--5qpPcUX9bs$F_I');
-	define('SECURE_AUTH_KEY',		'PN/_MlG:%[*`cgsWc!VnkU6&^K$A6$%+|sGrBf9F)SRmq]^-[$#Roi#-#ir.;;/Z');
-	define('LOGGED_IN_KEY',			'&v06[Qp!`s/+|m<]dWL5H{q>9iWA`I5p1A@Bsugm`b?g|y#O-arA_/ee*wE`m%$x');
-	define('NONCE_KEY',				'OGip0)Z{dB|fRKA<Z&0Pd8#]+E).qRrA!*zu>h8o!;O+VX#.6KK=vJ5-I,[+.KT+');
-	define('AUTH_SALT',				'(|c,Cfq`gzz_A;We|Q! e-v.7&xXw`wzy?2IR;o.gagd71w<?Sj{^?&)M}+|c-vj');
-	define('SECURE_AUTH_SALT',		'h`Q}eo(h,AgN{C vqu4RU@/}O,,JUQP,8h8^W7pg+g|@17&5J&d!+,Y6jVp@/! 2');
-	define('LOGGED_IN_SALT',		'gr18NT+Ec2|+vs2bk` w1[/7 FeX_3WWbWBh|MX+;N#,N(L.4NM=u;x1`*nO,a_5');
-	define('NONCE_SALT',			'MDg{iGuQ1=OWbAMsVS*?OU_Icxc~FL8|e`]vb-ODU--w*;}/}i-;ZS9M@BXVc(qd');
+	define('AUTH_KEY',         'BEn{EqLq+x?taSC%a[-i>t.kNHkSe?L;2-]ABUH-i-=[Nqel<g^^}[Sp80)>{u7-');
+	define('SECURE_AUTH_KEY',  'K8-LVC1angT>4zchsB{$f:LRs3vcrM$e-?9r))cDG78gfY}Mx|B9b,@w29F_aH6p');
+	define('LOGGED_IN_KEY',    '0#jJB%U~[Pap,|WCyC-FC2GG6YDGaqi[18W:1`v !%, ^Hha{IfM`){>B~Pvi/[G');
+	define('NONCE_KEY',        'gz%FEYeA-!WU9^Vg-/+rI0*OBiQ-*iRbw,|`]bE)R%h2|ebq,B/Av-CWg3da>e?Y');
+	define('AUTH_SALT',        'RZ*p>yXUU}41*.rC-WDy[zGeXdg,K`b{AVORK+/Xz_/PN^zpcVI#m.lFfCL$ X}w');
+	define('SECURE_AUTH_SALT', ')!@p-{t]HA2(3BQ|sYJhu!8)||koIX)^BkMArAM<gO?Q*{ D4_FRUSfESvmbmGD7');
+	define('LOGGED_IN_SALT',   'Rf0Ok.#>6MIfIX}?A!H>YN+{FR_aO&wT-2v:RKLjMr)?X/YTlg}m.j34x+*JC`e?');
+	define('NONCE_SALT',       '33A)Qt(eThP,n|j,#U!=VU[f]-pXFL:3&@`+Z{93FRAgzKWK58!-Rb:9Jv+A($}3');
 	define("CONCATENATE_SCRIPTS",	false);
 
 	$table_prefix =					getenv("MARIADB_PREFIX");
