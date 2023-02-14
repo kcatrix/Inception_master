@@ -1,9 +1,11 @@
-FROM	alpine:3.14
+FROM	alpine:3.17
 
 RUN		apk update
 RUN		apk upgrade
 
 #==== PHP_FPM =================================================================#
+
+RUN 	echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories
 RUN		apk add php7 \
 				php7-fpm \
 				php7-opcache \
